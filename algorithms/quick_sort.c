@@ -6,7 +6,7 @@
 int n;
 int q[N];
 
-void swap(int *p, int *q){  //TLE if you use it
+void swap(int *p, int *q){  
     int temp = *p;
     *p = *q;
     *q = temp;
