@@ -11,9 +11,9 @@ void reverseString(char *str);
 int main(){
     //char *x = "Hello"; //char *x is READ-ONLY!!! == const char *
     char x[] = "Hello";
-    printf("%d", stringLength(x));
+    printf("%d\n", stringLength(x));
     reverseString(x);
-    printf("%s", x); //print the string
+    printf("%s\n", x); //print the string
     return 0;
 }
 
